@@ -1,0 +1,22 @@
+[
+  {
+    "model": "../sbert_train/jmedroberta_mnr_sn",
+    "mean_auc": 0.6182122842535167,
+    "mean_map": 0.6845076119074969
+  },
+  {
+    "model": "tf-idf",
+    "mean_auc": 0.5061301374964284,
+    "mean_map": 0.564358676268221
+  },
+  {
+    "model": "../sbert_train/jmedroberta_mnr_hn",
+    "mean_auc": 0.5059185562456098,
+    "mean_map": 0.5724528957395186
+  },
+  {
+    "model": "word2vec",
+    "mean_auc": 0.3719494978721375,
+    "mean_map": 0.5262440215156514
+  }
+]
